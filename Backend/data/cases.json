@@ -1,0 +1,44 @@
+[
+{
+"type":"Divorce",
+"law":"Hindu Marriage Act 1955",
+"documents":[
+"Marriage Certificate",
+"Address Proof",
+"Income Proof"
+],
+"steps":[
+"File divorce petition",
+"Court hearing",
+"Final judgement"
+]
+},
+
+{
+"type":"Domestic Violence",
+"law":"Protection of Women from Domestic Violence Act 2005",
+"documents":[
+"Medical reports",
+"Identity proof",
+"Complaint details"
+],
+"steps":[
+"File complaint",
+"Protection officer review",
+"Court order"
+]
+},
+
+{
+"type":"Alimony",
+"law":"Section 125 CrPC",
+"documents":[
+"Marriage proof",
+"Husband income proof"
+],
+"steps":[
+"File alimony petition",
+"Court hearing"
+]
+}
+]

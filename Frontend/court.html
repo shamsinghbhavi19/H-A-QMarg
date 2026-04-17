@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Nearby Courts</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>Find Nearby Family Court</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="cases.html">Cases</a>
+<a href="chatbot.html">AI Assistant</a>
+<a href="petition.html">Petition</a>
+<a href="court.html">Courts</a>
+
+</nav>
+
+
+<button onclick="findCourt()">Show Courts</button>
+
+<div id="courtList"></div>
+
+<script>
+
+function findCourt(){
+
+document.getElementById("courtList").innerHTML=
+
+`
+<ul>
+<li>Delhi Family Court - Saket</li>
+<li>Delhi Family Court - Rohini</li>
+<li>Delhi Family Court - Dwarka</li>
+</ul>
+`
+
+}
+
+</script>
+<footer>
+
+<p>© 2026 H-A-Q Marg | Women Legal Support Platform</p>
+
+</footer>
+
+</body>
+</html>

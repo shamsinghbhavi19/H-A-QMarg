@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Petition Generator</title>
+
+<link rel="stylesheet" href="style/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="navbar">
+
+<h2 class="logo">H-A-Q मार्ग</h2>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="cases.html">Cases</a>
+<a href="chatbot.html">AI Assistant</a>
+<a href="petition.html">Petition</a>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Generate Legal Petition</h1>
+
+<p>Create a legal petition draft quickly.</p>
+
+</section>
+
+<section>
+
+<input type="text" id="name" placeholder="Your Name">
+
+<br>
+
+<input type="text" id="city" placeholder="Your City">
+
+<br>
+
+<select id="caseType">
+
+<option>Divorce</option>
+<option>Domestic Violence</option>
+
+</select>
+
+<br>
+
+<button onclick="generatePetition()">Generate Petition</button>
+
+<br><br>
+
+<pre id="result"></pre>
+
+</section>
+
+<footer>
+
+<p>© 2026 H-A-Q Marg | Women Legal Support Platform</p>
+
+</footer>
+
+<script src="petition.js"></script>
+
+</body>
+
+</html>
